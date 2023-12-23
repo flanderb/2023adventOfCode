@@ -33,7 +33,9 @@ async function processLineByLine(text_file) {
       // console.log(`First number from line: ${getFirstNumber(line)}`);
       // console.log(`Second number from line: ${getFirstNumber(reverseString(line))}`)
       // console.log(`Combined: ${full_number_as_string}`)
-      // console.log(`Combined and Inted: ${full_number}`)
+      // console.log(
+      
+      `Combined and Inted: ${full_number}`)
 
     }
     console.log(summed_number)
