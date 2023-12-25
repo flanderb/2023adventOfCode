@@ -1,5 +1,25 @@
 import 'dart:io';
 
+String nameToNum(String line){
+    String tempString = line;
+    Map<String, String> digits = {
+        "zero": "z0o",
+        "one": "o1e",
+        "two": "t2o",
+        "three":"t3e",
+        "four": "f4r",
+        "five": "f5e",
+        "six": "s6x",
+        "seven": "s7n",
+        "eight": "e8t",
+        "nine": "n9e"
+    };
+    digits.forEach((k, v) {
+        tempString = tempString.replaceAll(k,v);
+    });
+    return tempString;
+}
+
 String getFirstNumber(String line){
     int indexOfFirstNum;
 
@@ -9,8 +29,8 @@ String getFirstNumber(String line){
 
 void main() async {
 
-    String test = "a6b2c3d4e5f";
-
-    print(getFirstNumber(test));
+    String test = "eightwothree";
+    print(test);
+    print(nameToNum(test));
 
 }
