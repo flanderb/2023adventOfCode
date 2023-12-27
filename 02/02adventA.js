@@ -49,7 +49,7 @@ async function processLineByLine(text_file) {
     summed_number = 0
     for await (const line of rl) {
       summed_number += returnGameNumIfPossible(line);
-      console.log(returnGameNumIfPossible(line));
+      // console.log(returnGameNumIfPossible(line));
       // console.log(isGamepossible(line));
 
     };
