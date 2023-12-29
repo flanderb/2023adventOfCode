@@ -24,7 +24,8 @@ function returnGamePower(line){
   green = getLargestOfColor("green" ,line);
   blue = getLargestOfColor("blue" ,line);
 
-  return parseInt(gameNum);
+  return red*green*blue;
+  // return parseInt(gameNum);
 }
 
 async function processLineByLine(text_file) {
