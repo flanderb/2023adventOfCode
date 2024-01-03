@@ -49,7 +49,7 @@ int returnGameNumIfPossible(String line){
 }
 
 void main() async {
-  var fileName = '02input.txt';
+  var fileName = '../02input.txt';
   int total = 0;
 
   var myFile = new File(fileName);

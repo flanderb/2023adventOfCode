@@ -12,7 +12,7 @@ int combineFirstAndLastNumbers(String line){
 }
 
 void main() async {
-  var fileName = 'input.txt';
+  var fileName = '../input.txt';
   int total = 0;
 
   var myFile = new File(fileName);

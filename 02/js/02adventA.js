@@ -56,5 +56,5 @@ async function processLineByLine(text_file) {
     console.log(summed_number);
 }
 
-processLineByLine("02input.txt");
+processLineByLine("../02input.txt");
 
